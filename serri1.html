@@ -1,0 +1,21 @@
+function test(){
+	var select = document.getElementById('select').value;
+	console.log(select);
+}
+document.getElementById("submit").addEventListener("click",test,false);
+09:27 Uhr
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<select id="select">
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+	</select>
+	<input type="submit" id="submit">
+	<script src="script.js"></script>
+</body>
+</html>
